@@ -7,7 +7,7 @@
 - Gender: male
 - Location: Beijing
 - Hometown: Jieyang, Guangdong
-- Working years: 2 years
+- Working years: 2 years+
 - <i class="fas fa-envelope-square"></i> : glennlee.job@gmail.com or glennlee.job@qq.com
 - <i class="fab fa-github"></i> :  <https://github.com/igblee>
 
@@ -20,12 +20,28 @@
 
 ## <i class="fas fa-briefcase"></i> Experience
 
-### 1. Tusimple, Infrastructure, Frontend Developer, 2018.11 - now
+### 1. Bytedance, Lark(Main App)，Frontend, 2020.12 - now
+
+- Calendar(PC/Web)
+
+Features: 20w+ lines of code;probably the most complex calendar app in the industry;includes calendar, event, video conference, meeting minutes and meeting room modules;support internationalized language;feature gating;feature guide.
+
+My main work:
+
+- Efficient delivery of product requirements and oncall
+
+- new way of burrying analytics points: centralized related code of burying analytics points;improve code isolation;program works well even when the code of burrying analytics points ocurrs errors;expand the ability to bury points:deplay report,do collection before report,validation of reported parameters
+
+- optimization of builds & deployment for Web Calendar: extract configuration, support https for local developemnt, imporove builds efficiency
+
+Technologies: react stack, typescript, webpack etc.
+
+### 2. Tusimple, Infrastructure, Frontend, 2018.11 - 2020.12
 
 - Nimbus(platform of frontend microservice)
 
 Functions: intergrates most enterprise frontend services; registers services in two ways: embedded or external; supports SSO; supports services communication and call
-Features: framework independence(Vue, React, Angular all supported); services discovery; services isolation; services communication through message channel; public dependencies sharing
+Features: framework independence(vue, react, angular all supported); services discovery; services isolation; services communication through message channel; public dependencies sharing
 Contributions: as one of the two main developers; independent development of the version 1: supports service installs and uninstalls, services communication; participate in the design of services discovery, services isolation and public dependencies sharing
 Technologies: frontend microservice, webpack, service worker
 
@@ -43,13 +59,6 @@ Features: edit the training process by drawing the process; two-way synchronizat
 Contributions: project owner; development and maintenance
 Technologies: vue, page state, g6.js
 
-- Jarvis(automated operation and maintenance platform)
-
-Functions: authority control; custom operation and maintenance operation; operation and maintenance task management; custom approval process
-Features: customized form template; multiple permissions management(5 permissions); customized approval process; integrate faas, ansible and other services
-Contributions: project owner; sole development
-Technologies: vue, auth HOC
-
 - Simcraft(autonomous driving simulation editor)
 
 Functions: autopilot scene editing, simulation preview, storage, loading; simulation result display
@@ -57,19 +66,17 @@ Features: rich interaction; support for multiple environments (the Chinese and A
 Contributions: one of the main developer; design and development of project configuration architecture and multi-environment support; webpack and babel update; refactoring and rewriting of some modules
 Technologies: mapbox, python, webpack, babel
 
-### 2. Netease, Mail Division, Frontend Developer 2018.5 - 2018.10（intern）
+### 3. Netease, Mail Division, Frontend 2018.5 - 2018.10（intern）
 
-- Refactor for email login page and exit page
-- Daily development and maintenance of yingyangshi malls
-- Development of operation event page
+- email login logout pages; daily development and maintenance of 'yingyangshi' mall
 
 ## <i class="fas fa-tools"></i> Skills
 
 #### 1. Framework
 
-- Familiar with Vue technology stack: vue-router, vuex, vue-i8n and so on. Currently, the technology stack is mainly used.
-- Master React technology stack: redux, redux-saga, react-router. There was about a year of React development experience.
-- Familiar with node.js, with node.js and express.js development experience.
+- Familiar with vue technology stack: vue-router, vuex, vue-i18n and so on. Currently, the technology stack is mainly used
+- Familiar react technology stack: redux, redux-saga, react-router
+- Familiar with node.js, with node.js and express.js development experience
 
 #### 2. Frontend basics
 
@@ -87,7 +94,7 @@ Technologies: mapbox, python, webpack, babel
 - Have relevant experience with MySQL and MongoDB
 - Can read Java and write python
 
-#### 4. Studying
+#### 4. Instersted in & Studying
 
 - OpenGL, WebGL, threejs
 - Computer Graphics
